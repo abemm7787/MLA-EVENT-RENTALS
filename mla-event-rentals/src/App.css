@@ -1,5 +1,8 @@
+
+
+
 .Container{
-  background-color: burlywood;
+  /* background-color: burlywood; */
   height: 40px;
 
 }
@@ -12,10 +15,36 @@ justify-content:space-between ;
 
 }
 
+.input{
+  border: 1px solid lightgray;
+display: flex;
+justify-content: end;
+  width: 125px;
+  height: 27px;
+  padding-left: 40px;
+  margin-right: 2px;
+ 
+}
+
+.inputBorder{
+  border: 1px solid black;
+  width: 200px;
+  height: 21px;
+  padding-left:137px;
+  margin-top: 3px;
+color:gray;
+  border: none;
+}
 
 .Left{
 
 width: 30%;
+
+}
+
+
+.Lan{
+ cursor: pointer;
 
 }
 
@@ -26,5 +55,16 @@ width: 30%;
 
 .Right{
   width: 30%;
+  justify-content: end;
+  flex: 1;
+display: flex;
+align-items: center;
+flex:1;
 
 }
+
+
+.Logo{
+
+}
+/* Nav  */
