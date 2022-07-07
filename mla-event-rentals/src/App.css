@@ -1,0 +1,30 @@
+.Container{
+  background-color: burlywood;
+  height: 40px;
+
+}
+
+
+.Wrapper{
+padding: 5px;
+display: flex;
+justify-content:space-between ;
+
+}
+
+
+.Left{
+
+width: 30%;
+
+}
+
+.Center{
+  width: 30%;
+
+}
+
+.Right{
+  width: 30%;
+
+}
