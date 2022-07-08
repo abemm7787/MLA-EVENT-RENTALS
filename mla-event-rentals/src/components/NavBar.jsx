@@ -19,7 +19,7 @@ const NavBar = () => {
 
              
                     <div className='input'> 
-                        <SearchIcon />
+                        <SearchIcon className="search" />
                         <div className='inputBorder'> </div>
                     </div> 
 
@@ -35,9 +35,9 @@ const NavBar = () => {
                 <Badge badgeContent={4} color="primary">
   <ShoppingCartIcon color="action" />
 </Badge>
-                <div> Register </div>
+                <div className="Register"> Register </div>
                 
-                <div> Sign In </div>
+                <div className='Signin'> Sign In </div>
                 </div>
 
             </div>

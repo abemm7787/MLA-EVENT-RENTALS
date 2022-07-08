@@ -4,7 +4,7 @@
 .Container{
   /* background-color: burlywood; */
   height: 40px;
-
+margin-top: 10px;
 }
 
 
@@ -23,22 +23,26 @@ justify-content: end;
   height: 27px;
   padding-left: 40px;
   margin-right: 2px;
+  color:gray;
  
 }
 
+.search{
+  color: gray;
+}
 .inputBorder{
   border: 1px solid black;
   width: 200px;
   height: 21px;
   padding-left:137px;
   margin-top: 3px;
-color:gray;
   border: none;
 }
 
 .Left{
 
 width: 30%;
+margin-left: 40px;
 
 }
 
@@ -64,7 +68,21 @@ flex:1;
 }
 
 
+.Register{
+ margin-left:  40px;
+ margin-right: 40px;
+}
+
+.Signin{
+  margin-right: 10px;
+}
+
+
 .Logo{
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 /* Nav  */
