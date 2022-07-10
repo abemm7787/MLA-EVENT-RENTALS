@@ -1,43 +1,105 @@
 import React from 'react'
 import ArrowLeftOutlinedIcon from '@mui/icons-material/ArrowLeftOutlined';
 import ArrowRightOutlinedIcon from '@mui/icons-material/ArrowRightOutlined';
+import styled from 'styled-components'
+import MyImage from "../images/bounce.jpg"
 
 
 
-// const Button = styled.button`
-//   background: transparent;
-//   border-radius: 3px;
-//   border: 2px solid palevioletred;
-//   color: palevioletred;
-//   margin: 0.5em 1em;
-//   padding: 0.25em 1em;
+const Container = styled.div`
+  width:100%;
+  height: 100vh;
+  display:flex;
+  position: relative;
 
-//   ${props => props.primary && css`
-//     background: palevioletred;
-//     color: white;
-//   `}
-// `;
+`
 
-// const Container = styled.div`
-//   text-align: center;
-// `
+
+
+
+const Arrow = styled.div`
+width:50px;
+height:50px;
+background-color:#fff7f7;
+border-radius:50%;
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+top:0;
+bottom:0;
+left: ${props => props.direction === "left" && "10px"};
+right: ${props => props.direction === "right" && "10px"};
+margin:auto;
+cursor:pointer;
+opacity: 0.5;
+`
+
+const Wrapper = styled.div`
+height: 100%;
+`
+
+const Slide = styled.div`
+    display:flex;
+    align-items:center;
+`
+
+const Image = styled.img`
+
+ max-width:100%;
+    height:auto;
+    position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+
+`;
+
+const ImageContainer = styled.div`
+flex:1;
+display: flex;
+justify-content: center;
+`;
+
+const Title = styled.h1` 
+font-size: 70px;
+
+`
+const Desc = styled.p`
+margin:50px 0px;
+font-size: 20px;
+
+`
+const Button = styled.button``
 
 
 const Slider = () => {
     return (
-        <div className='Slider' >
-
-            <div className="Arrow">
+        <Container>
+            <Arrow direction="left">
                 <ArrowLeftOutlinedIcon />
-                <ArrowRightOutlinedIcon/>
-            </div>
+            </Arrow>
+            <Wrapper>
+                <ImageContainer>
+                    <Image src={MyImage} alt=""></Image>
+                </ImageContainer>
+                <infoContainer>
+                    <Title>
+                        Bouncy House Sales!
 
-            {/* <Container>
-    <Button>Normal Button</Button>
-    <Button primary>Primary Button</Button>
-  </Container> */}
-
-        </div>
+                    </Title>
+                    <Desc>
+                        DON'T COMPRISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.
+                    </Desc>
+                    <Button>
+                        SHOP NOW!
+                    </Button>
+                </infoContainer>
+            </Wrapper>
+            <Arrow direction="right">
+                <ArrowRightOutlinedIcon />
+            </Arrow>
+        </Container>
     )
 }
 
