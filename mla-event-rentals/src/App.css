@@ -85,4 +85,38 @@ flex:1;
   font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
+
+
+.Banner{
+  background-color: coral;
+  color: blanchedalmond;
+}
+
+
+.Slider{
+  display: flex;
+  width: 100vh;
+  height: 100vh;
+  background-color: aqua;
+  display:flex;
+
+}
+
+.Arrow{
+  width: 50px;
+  height: 50px;
+  background-color: antiquewhite;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+
+  top:0;
+  bottom: 0;
+ 
+
+
+}
+
 /* Nav  */
