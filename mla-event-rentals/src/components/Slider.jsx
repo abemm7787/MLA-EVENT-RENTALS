@@ -10,7 +10,9 @@ const Container = styled.div`
   width:100%;
   height: 100vh;
   display:flex;
-  position: relative;
+  /* position: relative; */
+  justify-content: center;
+ align-items: center;
 
 `
 
@@ -57,9 +59,13 @@ const Image = styled.img`
 
 const ImageContainer = styled.div`
 flex:1;
-display: flex;
-justify-content: center;
 `;
+
+const infoContainer = styled.div`
+
+
+`
+
 
 const Title = styled.h1` 
 font-size: 70px;
@@ -68,6 +74,9 @@ font-size: 70px;
 const Desc = styled.p`
 margin:50px 0px;
 font-size: 20px;
+letter-spacing:3px;
+
+
 
 `
 const Button = styled.button``
@@ -83,7 +92,14 @@ const Slider = () => {
                 <ImageContainer>
                     <Image src={MyImage} alt=""></Image>
                 </ImageContainer>
-                <infoContainer>
+           
+            </Wrapper>
+            
+            <Arrow direction="right">
+                <ArrowRightOutlinedIcon />
+            </Arrow>
+
+            <infoContainer>
                     <Title>
                         Bouncy House Sales!
 
@@ -95,11 +111,9 @@ const Slider = () => {
                         SHOP NOW!
                     </Button>
                 </infoContainer>
-            </Wrapper>
-            <Arrow direction="right">
-                <ArrowRightOutlinedIcon />
-            </Arrow>
         </Container>
+
+        
     )
 }
 
