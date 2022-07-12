@@ -1,21 +1,21 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://i.ibb.co/XsdmR2c/1.png",
+      img: " https://pikwizard.com/photos/portrait-of-friends-with-arms-around-sitting-on-bouncy-castle--576cc1d87dac628a766ac8691f284a6b-m.jpg",
       title: "SUMMER SALE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "f5fafd",
     },
     {
       id: 2,
-      img: "https://media.istockphoto.com/photos/childrens-bouncy-castle-inflatable-playground-top-half-picture-id157502040?k=20&m=157502040&s=612x612&w=0&h=lfJQ8Mtdwur5CuWw6TSR82wZMm0zgjCbtT23-ghPyOY=",
+      img: " https://pikwizard.com/photos/portrait-of-friends-with-arms-around-sitting-on-bouncy-castle--576cc1d87dac628a766ac8691f284a6b-m.jpg",
       title: "AUTUMN COLLECTION",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fcf1ed",
     },
     {
       id: 3,
-      img: "",
+      img: " https://pikwizard.com/photos/portrait-of-friends-with-arms-around-sitting-on-bouncy-castle--576cc1d87dac628a766ac8691f284a6b-m.jpg",
       title: "LOUNGEWEAR LOVE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fbf0f4",
@@ -25,17 +25,17 @@ export const sliderItems = [
   export const categories = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      img: "https://clk.tradedoubler.com/click?p=264322&a=3096436&g=24305840&url=https://stock.adobe.com/images/id/502811260?as_campaign=Pikwizard&as_content=api",
       title: "SHIRT STYLE!",
     },
     {
       id: 2,
-      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      img: "https://p1.pxfuel.com/preview/981/623/809/pirate-ship-bouncy-castle-inflatable-colorful.jpg",
       title: "LOUNGEWEAR LOVE",
     },
     {
       id: 3,
-      img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      img: "https://p1.pxfuel.com/preview/981/623/809/pirate-ship-bouncy-castle-inflatable-colorful.jpg",
       title: "LIGHT JACKETS",
     },
   ];
@@ -43,7 +43,7 @@ export const sliderItems = [
   export const popularProducts = [
     {
       id:1,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+      img:"https://p1.pxfuel.com/preview/981/623/809/pirate-ship-bouncy-castle-inflatable-colorful.jpg",
     },
     {
       id:2,

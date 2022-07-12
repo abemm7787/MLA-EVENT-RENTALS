@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar'
 import Announcement from "../components/Announcement"
 import Slider from  "../components/Slider"
 import styled from "styled-components"
+import Categories from './Categories'
 
 const MegaSlider = styled.div `
 
@@ -20,11 +21,9 @@ const Home = () => {
     <div>
    < Announcement/>
    <NavBar/>
-
-   <MegaSlider>
    <Slider/>
-  
-   </MegaSlider>
+  <Categories/>
+
      </div>
   )
 }
