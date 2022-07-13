@@ -5,6 +5,7 @@ import Slider from  "../components/Slider"
 import styled from "styled-components"
 import Categories from './Categories'
 import Products from "../components/Products";
+import Footer from "../components/Footer";
 
 const MegaSlider = styled.div `
 
@@ -25,8 +26,8 @@ const Home = () => {
    <NavBar/>
    <Slider/>
   <Categories/>
-
 <Products/>
+  <Footer/>
  
 
      </div>
