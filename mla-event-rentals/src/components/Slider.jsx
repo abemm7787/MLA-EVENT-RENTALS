@@ -88,6 +88,7 @@ const Slider = () => {
       setSlideIndex(slideIndex < 2 ? slideIndex + 1 : 0);
     }
   };
+  //hello motto
 
   return (
     <Container>
