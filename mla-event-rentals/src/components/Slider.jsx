@@ -88,7 +88,7 @@ const Slider = () => {
       setSlideIndex(slideIndex < 2 ? slideIndex + 1 : 0);
     }
   };
-  //hello motto
+  //hello motto hello from the other sideg
 
   return (
     <Container>
