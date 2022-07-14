@@ -6,7 +6,7 @@ import Register from "./components/Register"
 import Cart from "./components/Cart"
 function App() {
 
-  // return <Home/>
+  return <Home/>
   // return <ProductList/>
   // return <Register/> 
   return <Cart/>
