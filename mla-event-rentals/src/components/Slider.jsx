@@ -2,7 +2,10 @@ import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 import { useState } from "react";
 import styled from "styled-components";
 import { sliderItems } from "../data";
+import {product } from "../components/ProductList" 
+import { Link, useHistory } from 'react-router-dom';
 // import { mobile } from "../responsive";
+// const { push } = useHistory();
 
 const Container = styled.div`
   width: 100%;
@@ -10,7 +13,6 @@ const Container = styled.div`
   display: flex;
   position: relative;
   overflow: hidden;
-
 `;
 
 const Arrow = styled.div`
@@ -104,7 +106,8 @@ const Slider = () => {
             <InfoContainer>
               <Title>{item.title}</Title>
               <Desc>{item.desc}</Desc>
-              <Button>SHOW NOW</Button>
+              <Button  href="#"  >SHOW NOW
+              </Button>
             </InfoContainer>
           </Slide>
         ))}
@@ -115,5 +118,7 @@ const Slider = () => {
     </Container>
   );
 };
+
+
 
 export default Slider;

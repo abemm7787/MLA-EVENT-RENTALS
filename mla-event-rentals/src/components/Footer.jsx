@@ -86,11 +86,10 @@ import {
     return (
       <Container>
         <Left>
-          <Logo>LAMA.</Logo>
+          <Logo>Party Zone</Logo>
           <Desc>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don’t look even slightly believable.
+          Our availability and courtesy will never have to suffer from alteration in some form, by staying committed to our customers is slightly believable. We will guarantee the best price for our services hands-down. Consider a family-owned business with years of catering to our visitants,
+          with many variations of bouncy inflatables and party rentals to select from. The process of making sure everyone has a good bounce should be memorable for all of us thrill seekers. 
           </Desc>
           <SocialContainer>
             <SocialIcon color="3B5999">
@@ -108,8 +107,8 @@ import {
           </SocialContainer>
         </Left>
         <Center>
-          <Title>Useful Links</Title>
-          <List>
+          {/* <Title>Useful Links</Title> */}
+          {/* <List>
             <ListItem>Home</ListItem>
             <ListItem>Cart</ListItem>
             <ListItem>Man Fashion</ListItem>
@@ -120,18 +119,18 @@ import {
             <ListItem>Wishlist</ListItem>
             <ListItem>Wishlist</ListItem>
             <ListItem>Terms</ListItem>
-          </List>
+          </List> */}
         </Center>
         <Right>
           <Title>Contact</Title>
           <ContactItem>
-            <Room style={{marginRight:"10px"}}/> 622 Dixie Path , South Tobinchester 98336
+            <Room style={{marginRight:"10px"}}/> NJ/NYC/PA/DE
           </ContactItem>
           <ContactItem>
-            <Phone style={{marginRight:"10px"}}/> +1 234 56 78
+            <Phone style={{marginRight:"10px"}}/> +201-244 7390
           </ContactItem>
           <ContactItem>
-            <MailOutline style={{marginRight:"10px"}} /> contact@lama.dev
+            <MailOutline style={{marginRight:"10px"}} /> partyzone4us@gmail.com
           </ContactItem>
           <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
         </Right>

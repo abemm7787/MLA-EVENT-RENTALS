@@ -17,27 +17,27 @@ const NavBar = () => {
             <div className='Wrapper'>
                 <div className='Left'>
 
-             
-                    <div className='input'> 
-                        <SearchIcon className="search" />
-                        <div className='inputBorder'> </div>
-                    </div> 
+{/*              
+                    <div className='input'>  */}
+                        {/* <SearchIcon className="search" /> */}
+                        {/* <div className='inputBorder'> </div> */}
+                    {/* </div>  */}
 
 
                 </div>
                 <div className='Center'>
-                  <div className='Logo'> MLA Rentals </div>
+                  <div className='Logo'> Party Zone Rentals! </div>
                 </div>
                 <div className='Right'>
                     <div className="Badage"> </div>
             
 
-                <Badge badgeContent={4} color="primary">
+                {/* <Badge badgeContent={4} color="primary">
   <ShoppingCartIcon color="action" />
 </Badge>
                 <div className="Register"> Register </div>
                 
-                <div className='Signin'> Sign In </div>
+                <div className='Signin'> Sign In </div> */}
                 </div>
 
             </div>
